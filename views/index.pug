@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/css/calc.css")
+  body
+    div(id='calculator')
+      div(class='top')
+        span(class='clear', id='clear') &#8592;
+        div(class='screen')
+      div(class='keys')
+        span 7
+        span 8
+        span 9
+        span(class='operator') &divide;
+        span 4
+        span 5
+        span 6
+        span(class='operator') x
+        span 1
+        span 2
+        span 3
+        span(class='operator') -
+        span 0
+        span .
+        span =
+        span(class='operator') +
+  script(type="text/javascript", src="/js/jquery.js")
+  script(type="text/javascript", src="/js/calc.js")
+    
